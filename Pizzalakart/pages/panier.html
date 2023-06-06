@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/home.style.css" />
+    <!-- <link rel="stylesheet" href="../styles/carte.style.css" /> -->
+    <link rel="stylesheet" href="../styles/panier.style.css" />
+    <title>Document</title>
+</head>
+<body>
+   
+        <header class="header">
+            <h1 class="titre" >Pizz'alakart</h1>
+            <div class="navbar">
+                <span><a href="home.html"> Accueil</a></span>
+                <span><a href="carte.html"> Notre carte </a></span>           
+                <span><a href="panier.html"> Panier </a></span>
+            </div>
+        </header>
+
+
+        <section class="container content-section">
+            <h2 class="section-header">PANIER</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="http://localhost:5500/img/pizza3.jpg" width="100" height="100">
+                        <span class="cart-item-title">La Yoshi !</span>
+                    </div>
+                    <span class="cart-price cart-column">$13.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="1">
+                        <button class="btn btn-danger" type="button"><img class="btn-suppr" src="../icons\pizza_poubelle.png" ></button>
+                    </div>
+                </div>
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="http://localhost:5500/img/pizza5.jpg" width="100" height="100">
+                        <span class="cart-item-title">Toad Surprise</span>
+                    </div>
+                    <span class="cart-price cart-column">12.99€</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="2">
+                        <button class="btn btn-danger" type="button"> <img class="btn-suppr" src="../icons\pizza_poubelle.png" ></button>
+                        
+
+                    </div>
+                </div>
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$27.98</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">ACHAT</button>
+        </section>
+
+
+
+
+
+        <footer class="footer">
+            <div class="contacts">
+                <p>Nous contacter:</p>
+                <p>04.67.35.95.63</p>
+                <p>Nous trouver:</p>
+                <p>36, quai des orfèvres, 75000 Paris</p>
+            </div>
+            <div class="reseaux">
+                <span class="reseaux-item">
+                  <i class="fab fa-facebook"></i>
+                  Suivez-nous sur Facebook
+                </span>
+                <span class="reseaux-item">
+                  <i class="fab fa-instagram"></i>
+                  Suivez-nous sur Instagram
+                </span>
+                <span>
+                    <img id="uber" src="/icons/uber eats noir.png">
+                    Commandez via Uber
+                </span>
+                <span></span>
+              </div>
+              
+            <div class="cgv">
+                    Consulter nos CGV
+            </div>
+    
+        </footer>
+    </body>
+    </html>
