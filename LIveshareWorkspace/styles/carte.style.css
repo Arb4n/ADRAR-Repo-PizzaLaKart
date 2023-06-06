@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    background-color:rgb(245, 238, 230);
+  }
+  header{
+    display: flex;
+    height: 150px;
+    width:100%;
+    justify-content: space-between;
+     
+   padding-right: 50px;
+   padding-top: 15px;
+
+}
+
+.titre {
+   background: linear-gradient(90deg, #90ee90, #fff, #ca1919);
+background-size: 80%;
+background-repeat: no-repeat;
+
+opacity: 70%;
+position: relative;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 45px;
+
+animation: animate 3s infinite;
+-webkit-background-clip: text;
+-webkit-text-fill-color: rgba(255, 255, 255, 0); 
+text-shadow: -5px 5px 0px black;
+ } 
+
+ @keyframes animate {
+    0% {
+        background-position: -500%;
+      }
+      100% {
+        background-position: 500%;
+      }
+}
+
+.navbar{
+display: flex;
+flex-direction: row;
+
+}
+
+.navbar span{
+margin-right: 50px;
+
+}
+
+      
+
+
+.card-wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.card-container{
+    width: 70%;
+    padding: 10px;
+    overflow: auto;
+    display:grid;
+    justify-items: center;
+    
+   
+    grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 80px;
+ 
+}
+.pizza-card{
+    border-radius: 10px;
+    box-shadow: 4px 4px 1em grey ;
+    width:250px;
+    height:300px;
+    background-color: white;
+    
+}
+.pizza-card img{
+    border-radius: 10px 10px 0 0;
+    width:100%;
+  height: 75%;
+  
+  object-fit: cover;
+}
+.pizza-description{
+    display: flex;
+    height:25%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    color:grey;
+    font-weight: bold;
+}
+.footer {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+    padding: 20px;
+
+    font-size: 80%;
+    background-color:rgb(245, 238, 230);
+  }
+  .contacts{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+  }
+  .reseaux{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    font-family: Arial, sans-serif; 
+    
+  }
+  
+  
+  .reseaux-item {
+    display: inline-block;
+    margin-right: 10px; 
+    
+  }
+  i.fab.fa-instagram , i.fab.fa-facebook{
+    height:35px;
+  }
+  .cgv{
+    margin-right: 50px;
+  }
+  #uber{
+    height:26px;
+  }
+
+  
